@@ -1,0 +1,718 @@
+.techno{
+    text-align: center;
+    border:saddlebrown;
+}
+.card{
+    display: grid;   
+    grid-template-columns: auto auto auto;
+    padding:3rem;
+}
+.card>div{
+    margin:0.1rem;
+    padding:1rem;
+}
+.card>div:hover{
+    background-color: yellow;
+}
+.worldclassdeveloper{
+    justify-content: center;
+    display: flex;
+}
+#contact{
+    margin:1rem;
+    background-color: yellow;
+    border-radius: 10px;
+}
+.heading{
+    text-align: left;
+}
+.btn{
+    margin:3rem;
+    border-radius: 10px;
+    
+}
+.btn>button{
+    border:2px solid yellow;
+    height:2rem;
+    border-radius: 20px;
+    margin:1rem;
+    padding:1rem
+    
+}.btn>button:hover{
+    background-color: yellow;
+   
+}.tech{
+    background-color: black;
+}
+.heading{
+    color:azure;
+    padding:1rem;
+}
+.py-3{
+    color:blanchedalmond;
+    padding:1rem;
+}
+.icon{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.icon>div>p{
+    margin-top:0px;
+    
+}
+.icon>div>svg{
+    margin-top:0px;
+
+    /* border: 1px solid yellow; */
+}
+.icon>div{
+    margin:3rem;
+
+}
+.solu{
+    display:flex;
+  
+}
+.solu>div:hover{
+    background-color: yellow;
+}
+.solu>div{
+    margin:3rem;
+    padding:1.5rem;
+}
+.images{
+    justify-content: center;
+}
+.img1{
+    display: flex;
+    margin-left: 10%;
+}
+.img2{
+    display:flex;
+    margin-left: 10%;
+}
+.container {
+    position: relative;
+}
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color:transparent;
+    color:black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container2 {
+    position: relative;
+}
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color:transparent;
+    color:black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container3{
+    position: relative;
+}
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color:transparent;
+    color:black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container4{
+    position: relative;
+}
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color:transparent;
+    color:black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.img1>div>img{
+    margin:1rem;
+    border-radius: 20px;
+}
+.img2>div>img{
+    margin:1rem;
+    border-radius: 20px;
+}
+.circles{
+    display: flex;
+    height: 18rem;
+}
+.one{
+    width: 180px;
+    height: 180px;
+    border: 4px solid yellow ;
+    border-radius: 50%;
+    text-align: center;
+    padding: 1%;
+    justify-content: center;
+
+}
+#one-a{
+    padding-top: 0.1rem;
+}
+.oneb{  width: 50px;
+    height: 50px;
+    border: 4px solid black ;
+    border-radius: 50%;
+    margin:4rem;
+    animation: rotation 16s infinite linear;
+}
+.two{
+    width: 180px;
+    height: 180px;
+    border: 4px solid yellow ;
+    border-radius: 50%;
+    text-align: center;
+    padding: 1%;
+    justify-content: center;
+
+}
+#two-a{
+    padding-top: 0.1rem;
+}
+.twob{  width: 50px;
+    height: 50px;
+    border: 4px solid black ;
+    border-radius: 50%;
+    margin:4rem;
+    animation: rotation 16s infinite linear;
+}
+.three{
+    width: 180px;
+    height: 180px;
+    border: 4px solid yellow ;
+    border-radius: 50%;
+    text-align: center;
+    padding: 1%;
+    justify-content: center;
+
+}
+#three-a{
+    padding-top: 0.1rem;
+}
+.threeb{  width: 50px;
+    height: 50px;
+    border: 4px solid black;
+    border-radius: 50%;
+    margin:4rem;
+    animation: rotation 16s infinite linear;
+}
+.four{
+    width: 180px;
+    height: 180px;
+    border: 4px solid yellow ;
+    border-radius: 50%;
+    text-align: center;
+    padding: 1%;
+    justify-content: center;
+
+}
+#four-a{
+    padding-top: 0.1rem;
+}
+.fourb{  width: 50px;
+    height: 50px;
+    border: 4px solid black;
+    border-radius: 50%;
+    margin:4rem;
+    animation: rotation 16s infinite linear;
+}
+
+.five{
+    width: 180px;
+    height: 180px;
+    border: 4px solid yellow;
+    border-radius: 50%;
+    text-align: center;
+    padding: 1%;
+    justify-content: center;
+
+}
+#five-a{
+    padding-top: 0.1rem;
+}
+.fiveb{  width: 50px;
+    height: 50px;
+    border: 4px solid black ;
+    border-radius: 50%;
+    margin:4rem;
+    animation: rotation 16s infinite linear;
+}
+.circles>div{
+    margin-left: 4rem;
+     
+}
+
+.compimages{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin:3rem;
+}
+.logo{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    margin:5rem;
+    padding:2rem;
+}
+
+.logo>div{
+    padding: 2rem 0rem 2rem 0rem ;
+    display: flex;
+}
+.clients{
+    background-color:black;
+    height:18rem;
+}
+.box{
+    border:4px solid yellow;
+    height:20rem;
+    width:80%;
+    background-color:white;
+    margin:10%;
+    border-radius: 30px;
+    text-align: center;
+}
+#aa{
+    margin:3rem;
+}
+.box>h3{
+    margin:3rem;
+}
+.getstart{
+    text-align: center;
+    padding-top: 8rem;
+}
+#drop{
+    margin:2rem;
+    background-color: yellow;
+    border-radius: 10px;
+    height:3rem;
+}
+/*slide bar*/
+.slideshow-container {
+    position: relative;
+    background: plum;
+    border:7px solid #ffff00;
+    border-radius: 2rem;
+    margin:6rem;
+    margin-top: 0;
+    height:20rem;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+    width:70%;
+    
+    
+
+  }
+  .oneb hr{
+    border: none;
+    border-top: 3px dotted #000;
+    color: #fff;
+    background-color: #fff;
+    height: 4px;
+    width: 52%;
+    transform: rotate(90deg);
+    position: absolute;
+    top: -9px;
+    left: 21%;
+ }
+ .twob hr{
+    border: none;
+    border-top: 3px dotted #000;
+    color: #fff;
+    background-color: #fff;
+    height: 4px;
+    width: 52%;
+    transform: rotate(90deg);
+    position: absolute;
+    top: -9px;
+    left: 21%;
+ }
+ .threeb hr{
+    border: none;
+    border-top: 3px dotted #000;
+    color: #fff;
+    background-color: #fff;
+    height: 4px;
+    width: 52px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: -9px;
+    left: 19%;
+ }
+ .fourb hr{
+    border: none;
+    border-top: 3px dotted #000;
+    color: #fff;
+    background-color: #fff;
+    height: 4px;
+    width: 52%;
+    transform: rotate(90deg);
+    position: absolute;
+    top: -9px;
+    left: 21%;
+ }
+  
+ .fiveb hr{
+    border: none;
+    border-top: 3px dotted #000;
+    color: #fff;
+    background-color: #fff;
+    height: 4px;
+    width: 52%;
+    transform: rotate(90deg);
+    position: absolute;
+    top: -9px;
+    left: 21%;
+ }
+  @keyframes Rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotation {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: center;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: center;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+      text-align: center;
+      padding: 20px;
+      background: #dfdfdf;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    display: inline-block;
+    transition:0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  .cartoon{
+    display:flex;
+    justify-content: space-around;
+    
+  }
+  .OA{
+    background-color:black;
+    height:40rem;
+  }
+  .info{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+  }
+  .bott{
+    height:3rem;
+    width:100%;
+    background:yellow;
+  }
+ .mail{
+    color:#ffff00;
+    display: flex;
+}
+.address{
+    display:flex;
+    padding:4rem;
+    margin:4rem;
+}
+
+.address>div{
+   color: white;
+}
+.service{
+    margin-left: 5rem;
+}
+.our{
+    color:white;
+    margin-left:7rem;
+
+}
+#email{
+    margin:1rem;
+    background-color: yellow;
+    border-radius: 10px;
+    height:3rem;
+    width: 12rem;
+    cursor: pointer;
+}
+#consult{  
+    margin:1rem;
+    background-color: white;
+    border-radius: 10px;
+    height:4rem;
+    width:12rem;
+    cursor:pointer;
+}
+.free{
+    margin-left: 7rem;
+    display:flex;
+    flex-direction: column;
+}
+.center {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-style: dotted;
+    animation-name: rotate;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      border-radius: 50%;
+  }
+  @keyframes rotate{
+      from{ transform: rotate(-360deg); }
+      to{ transform: rotate(360deg) }
+  }
+  .diff{
+    margin:4rem;
+}
+#about{
+    margin:4rem;
+}
+#part{
+    margin:4rem;
+}
+#beside{
+    margin:4rem;
+}
+#project{
+    margin:1rem;
+    background-color: yellow;
+    border-radius: 10px;
+    height:6rem;
+    width: 12rem;
+    cursor: pointer; 
+
+}
+#engi{
+    margin:1rem;
+    background-color: yellow;
+    border-radius: 10px;
+    height:6rem;
+    width: 12rem;
+    cursor: pointer;
+}
+#country{
+    margin:1rem;
+    background-color: yellow;
+    border-radius: 10px;
+    height:6rem;
+    width: 12rem;
+    cursor: pointer;
+}
+#deli{
+    margin:1rem;
+    background-color: yellow;
+    border-radius: 10px;
+    height:6rem;
+    width: 12rem;
+    cursor: pointer;
+}.but{
+    margin:4rem;
+    display:grid;
+    grid-template-columns: auto auto;
+}
+.middle{
+    display:flex;
+}
+.About_us{
+    padding:0%;
+}
+#part{
+    margin-bottom: 0;
+    line-height: 1.5rem;
+}
+#beside{
+    margin-top: 1rem;
+    
+}#team{
+    margin:8rem;
+}
+.middle2{
+    display:flex;
+}
+#team2{
+    margin:8rem;
+}
+.but2{
+    margin:4rem;
+    display:grid;
+    grid-template-columns: auto;
+}
+#project2{
+    margin:1rem;
+    background-color: yellow;
+    border-radius: 10px;
+    height:6rem;
+    width: 30rem;
+    cursor: pointer;
+}
+#country2{
+    margin:1rem;
+    background-color: yellow;
+    border-radius: 10px;
+    height:6rem;
+    width: 30rem;
+    cursor: pointer;
+}
+.but3{
+    margin:4rem;
+    display:grid;
+    grid-template-columns: auto;
+    text-align: center;
+}
+.num{
+    margin-left:4rem;
+    background-color:#000;
+    border-radius: 15px;
+    height:2rem;
+   padding-bottom: 2.4rem;
+    
+    margin: 1rem;
+    cursor: pointer;
+}
+
+#your1{
+    margin:1rem;
+    background-color:white;
+    border-radius: 10px;
+    height:4rem;
+    width: 48rem;
+    cursor: pointer;
+}
+
+#your2{
+    margin:1rem;
+    background-color:white;
+    border-radius: 10px;
+    height:4rem;
+    width: 48rem;
+    cursor: pointer;
+}
+#your3{
+    margin:1rem;
+    background-color:white;
+    border-radius: 10px;
+    height:4rem;
+    width: 48rem;
+    cursor: pointer;
+}
+#your4{
+    margin:1rem;
+    background-color:white;
+    border-radius: 10px;
+    height:8rem;
+    width: 48rem;
+    cursor: pointer;
+}
+#your5{
+    margin-left:21rem;
+    background-color:yellow;
+    border-radius: 10px;
+    height:4rem;
+    width: 10rem;
+    cursor: pointer;
+}
+.middle_left{
+    /* margin-left:4rem; */
+    /* border: 1px solid red;
+    */
+    width: 50%;
+
+}
+.middle3{
+    /* border: 1px solid red; */
+    display: flex;
+    
+}
+.pg_form{
+   
+    border:10px solid black;
+    
+    margin-bottom: 5rem;
+    border-radius: 15px;
+    width:50rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
