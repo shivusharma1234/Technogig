@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes rotating {
+            from {
+                -ms-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -webkit-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+
+            to {
+                -ms-transform: rotate(360deg);
+                -moz-transform: rotate(360deg);
+                -webkit-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        .rotating {
+            position: relative;
+            border: 8px solid;
+            margin-right: 200px;
+            border-radius: 50%;
+            height: 400px;
+            width: 400px;
+            border-style: dotted;
+            -webkit-animation: rotating 2s linear infinite;
+            -moz-animation: rotating 2s linear infinite;
+            -ms-animation: rotating 2s linear infinite;
+            -o-animation: rotating 2s linear infinite;
+            animation: rotating 7s linear infinite;
+
+        }
+
+        .rotating2 {
+            position: absolute;
+            border: 4px solid;
+            left: 370px;
+            z-index: 1;
+            border-radius: 50%;
+            height: 300px;
+            width: 300px;
+            border-style: dotted;
+            background-color: yellow;
+            top: 50px;
+        }
+
+        .rotating3 {
+            position: relative;
+            border: 8px solid;
+            margin-right: 200px;
+            border-radius: 50%;
+            height: 400px;
+            width: 400px;
+            border-style: dotted;
+            -webkit-animation: rotating 2s linear infinite;
+            -moz-animation: rotating 2s linear infinite;
+            -ms-animation: rotating 2s linear infinite;
+            -o-animation: rotating 2s linear infinite;
+            animation: rotating 7s linear infinite;
+
+        }
+
+        .absolute {
+
+            background-color: black;
+            width: 300px;
+            position: absolute;
+            color: white;
+            bottom: 450px;
+            left: 70px;
+
+        }
+
+        .absolute2 {
+            background-color: black;
+            width: 80px;
+            position: absolute;
+            color: white;
+            bottom: 520px;
+            left: 30rem;
+            z-index: 1;
+
+        }
+
+        .absolute3 {
+
+            background-color: black;
+            width: 300px;
+            position: absolute;
+            border: 2px solid black;
+            color: rgb(173, 35, 35);
+            bottom: 850px;
+            left: 680px;
+            top: 6rem;
+
+        }
+
+        .roti {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display: none;">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dolores minima corporis hic iste praesentium
+    reprehenderit accusamus? Autem earum, mollitia rerum, suscipit voluptate corporis inventore quas itaque, ab fugiat
+    maxime.
+    <h1> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dolores minima corporis hic iste praesentium
+        reprehenderit accusamus? Autem earum, mollitia rerum, suscipit voluptate corporis inventore quas itaque, ab
+        fugiat maxime.</h1>
+    <h1> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dolores minima corporis hic iste praesentium
+        reprehenderit accusamus? Autem earum, mollitia rerum, suscipit voluptate corporis inventore quas itaque, ab
+        fugiat maxime.</h1>
+    <br>
+    <hr>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dolores minima corporis hic iste praesentium
+    reprehenderit accusamus? Autem earum, mollitia rerum, suscipit voluptate corporis inventore quas itaque, ab fugiat
+    maxime.
+    <h1> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dolores minima corporis hic iste praesentium
+        reprehenderit accusamus? Autem earum, mollitia rerum, suscipit voluptate corporis inventore quas itaque, ab
+        fugiat maxime.</h1>
+    <h1> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dolores minima corporis hic iste praesentium
+        reprehenderit accusamus? Autem earum, mollitia rerum, suscipit voluptate corporis inventore quas itaque, ab
+        fugiat maxime.</h1>
+
+    </div>
+    <div class="roti">
+        <div>
+            <div class="rotating"></div>
+            <div class="absolute">
+                <h3>Blocking</h3>
+                <h3>Quality</h3>
+                <h3>Domain knowledge</h3>
+                <h3>Dusiness development</h3>
+            </div>
+        </div>
+        <!-- end of first circle -->
+        <div>
+            <div class="rotating2"></div>
+            <div class="absolute2">
+                <h3>Product</h3>
+            </div>
+        </div>
+        <div>
+            <div class="rotating3"></div>
+            <div class="absolute3">
+                <h3>Blocking</h3>
+                <h3>Quality</h3>
+                <h3>Domain knowledge</h3>
+                <h3>business development</h3>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
